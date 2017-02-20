@@ -14,6 +14,7 @@ Import following lines to your .rc file:
 export DONUTS_HOME=$HOME
 
 # You have to run the alias from any command line and your message will appear on predefined slack channel.
-alias donuts='curl --data @$DONUTS_HOME/.donuts https://hooks.slack.com/services/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'
+# Pay heed to the proper value for YOUR_URL. Ask your local slack donut embassador.
+alias donuts='curl --data @$DONUTS_HOME/.donuts YOUR_URL'
 ```
 
