@@ -1,4 +1,8 @@
 # donuts
+
+Makes a nice appearance in a slack channel, posting an informative text. Inspired by the shoutout for donuts on wednesdays. It's basically what it does for the moment.
+
+### Setup
 Import following lines to your .rc file:
 
 ``` bash
@@ -6,9 +10,10 @@ Import following lines to your .rc file:
 
 # Default file place is $HOME. Create a file named .donuts there
 # Make sure .donuts looks like the sample file in samples/.donuts
+# NOTE: Edit values for "text", channel", "username" and "icon_emoji"
 export DONUTS_HOME=$HOME
 
 # You have to run the alias from any command line and your message will appear on predefined slack channel.
-alias donuts='curl --data @$DONUTS_HOME/.donuts https://hooks.slack.com/services/T03EA2QBM/B47MFMTNG/Snyc0QhNN4BpynoV0vTCAp5
+alias donuts='curl --data @$DONUTS_HOME/.donuts https://hooks.slack.com/services/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'
 ```
 

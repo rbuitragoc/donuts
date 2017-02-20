@@ -1,1 +1,1 @@
-payload={"channel": "#vpc-slack-dev", "username": "Ultimos dias!", "text": "Aparte la suya pues. Descuentos desde la unidad #10", "icon_emoji": ":monkey2:"}
+payload={"channel": "#your-channel", "username": "Your Username", "text": "Search latest RT news at <http://rt.com|RT>!", "icon_emoji": ":bear:"}
